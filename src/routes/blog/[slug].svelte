@@ -54,4 +54,5 @@
     {@html post.html}
   </article>
   <hr />
+  <!-- <Bio /> -->
 </div>
