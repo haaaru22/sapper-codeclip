@@ -61,7 +61,7 @@
 </style>
 
 <svelte:head>
-  <title>Sapper Blog Template</title>
+  <title>Sapper Blog</title>
 </svelte:head>
 
 <div class="home-container">
@@ -69,14 +69,14 @@
     <h1>Welcome to my Sapper Blog</h1>
     <p>
       <a href="https://github.com/haaaru22" target="_blank">GitHub</a>
+
+      <a href="https://github.com/haaaru22" target="_blank">Twitter</a>
     </p>
   </div>
 
   <figure>
-    <img alt="Person typing on laptop" src="undraw-illustration.svg" />
-    <figcaption>
-      Illustration thanks to
-      <a href="https://undraw.co" target="_blank">Undraw</a>
-    </figcaption>
+    <img
+      alt="Home"
+      src="https://live.staticflickr.com/65535/50331737441_8eb56654b6.jpg" />
   </figure>
 </div>
