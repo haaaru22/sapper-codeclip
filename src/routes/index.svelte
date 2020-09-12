@@ -70,8 +70,6 @@
   </div>
 
   <figure>
-    <img
-      alt="Home"
-      src="https://live.staticflickr.com/65535/50331737441_8eb56654b6.jpg" />
+    <img alt="Home" src="codeclip.gif" />
   </figure>
 </div>

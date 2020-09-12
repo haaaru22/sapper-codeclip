@@ -1,31 +1,33 @@
 <script context="module">
   export function preload({ params, query }) {
-    return this.fetch(`blog.json`).then(r => r.json()).then(posts => {
-      return { posts };
-    });
+    return this.fetch(`blog.json`)
+      .then((r) => r.json())
+      .then((posts) => {
+        return { posts }
+      })
   }
 </script>
 
 <script>
-  export let posts;
+  export let posts
 </script>
 
 <style>
-  h2,
+  h3,
   .post-item-footer {
     font-family: Rubik, sans-serif;
     font-weight: 700;
   }
 
   .post-item-date {
-    color: #AAA;
+    color: #aaa;
     text-align: left;
     text-transform: uppercase;
     margin-right: 16px;
   }
 
   hr {
-    margin: 60px auto;
+    margin: 30px 10px;
   }
 </style>
 
@@ -40,10 +42,10 @@
       <hr />
     {/if}
     <div class="post-item">
-      <h2>
-        <a rel='prefetch' href='blog/{post.slug}'>{post.title}</a>
-      </h2>
-      <p>{post.excerpt}</p>
+      <h3>
+        <a rel="prefetch" href="blog/{post.slug}">{post.title}</a>
+      </h3>
+      <!-- <p>{post.excerpt}</p> -->
       <div class="post-item-footer">
         <span class="post-item-date">— {post.printDate}</span>
       </div>
