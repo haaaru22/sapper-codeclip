@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "sapper-codeclip",
+  "description": "code置き場",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",

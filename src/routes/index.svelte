@@ -27,11 +27,6 @@
     text-align: center;
   }
 
-  figcaption {
-    font-size: 0.8em;
-    font-style: italic;
-  }
-
   img {
     width: 100%;
     max-width: 400px;
