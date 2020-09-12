@@ -61,7 +61,7 @@
 
 <div class="home-container">
   <div class="home-copy">
-    <h1>Welcome to my Sapper Blog</h1>
+    <h1>Welcome to my Sapper code clip blog</h1>
     <p>
       <a href="https://github.com/haaaru22" target="_blank">GitHub</a>
 
@@ -70,6 +70,8 @@
   </div>
 
   <figure>
-    <img alt="Home" src="codeclip.gif" />
+    <img
+      alt="Home"
+      src="https://live.staticflickr.com/65535/50331737441_8eb56654b6.jpg" />
   </figure>
 </div>
